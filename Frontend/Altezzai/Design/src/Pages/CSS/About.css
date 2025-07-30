@@ -1,0 +1,120 @@
+/* About Section Main Container */
+.about {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Vector Background Image */
+.bg-vector {
+  position: absolute;
+  width: 200px;
+  top: 0;
+  left: 15%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  z-index: 100;
+}
+
+@media (max-width: 1200px) {
+  .bg-vector {
+    width: 180px;
+    left: 18%;
+  }
+}
+
+/* Section Title */
+.ab {
+  text-align: center;
+  margin: 40px ;
+  padding: 80px;
+}
+
+.abtop h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.abbottom {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Main About Layout */
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 80px;
+  gap: 100px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+@media (max-width: 1200px) {
+  .about-content {
+    padding-inline: 40px;
+    gap: 60px;
+    margin-bottom: 50px;
+  }
+}
+
+/* Left Image Block */
+.about-bgimg {
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.unionimg {
+  width: 600px;
+  margin-top: -15px;
+  filter: drop-shadow(10px 10px 0 black) drop-shadow(0 0 0 black);
+}
+
+@media (max-width: 1200px) {
+  .unionimg {
+    width: 500px;
+    margin-top: -15px;
+  }
+}
+
+/* Text Over Image */
+.about-bgimg-heading {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .about-bgimg-heading {
+    top: 20%;
+    left: 8%;
+    font-size: 50px;
+    line-height: 65px;
+  }
+}
+
+/* Paragraph Section */
+.about-info {
+  max-width: 700px;
+  padding-top: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media (max-width: 1200px) {
+  .about-info {
+    width: 60%;
+    padding-top: 30px;
+    font-size: 14px;
+    line-he

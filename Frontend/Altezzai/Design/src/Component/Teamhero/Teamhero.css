@@ -1,0 +1,97 @@
+.home-team-preview {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.team-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Card container */
+.team-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  height: 350px;
+  border-radius: 45px;
+  border: 1px solid #191a23;
+  border-bottom: 5px solid #191a23;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Profile image inside card */
+.bgimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Bottom detail box */
+.member-detail-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin-inline: 5px;
+  border-radius: 28px;
+  border: 1px solid #191a23;
+  border-bottom: 3px solid #191a23;
+  background: #fff;
+  height: 70px;
+  padding-inline: 10px;
+  position: absolute;
+  bottom: 2%;
+}
+
+/* Member name and position */
+.member-details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.member-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.member-position {
+  font-size: 14px;
+  color: #666;
+}
+
+/* LinkedIn icon */
+.linkedin img {
+  width: 20px;
+}
+
+/* Button at bottom */
+.view-more-btn {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #191a23;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.view-more-btn:hover {
+  background-color: #2e9eb9;
+}
+
+/* Reset for image/video */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}

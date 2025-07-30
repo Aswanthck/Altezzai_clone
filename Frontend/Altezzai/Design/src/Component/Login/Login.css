@@ -1,0 +1,92 @@
+.logheading {
+  position: relative;
+  padding: 0;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #191a15;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 120px;
+}
+.vectorr {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  z-index: 100;
+  width: 180px;
+}
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: rgb(243, 243, 243);
+  padding-block: 70px;
+  justify-content: center;
+}
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  margin-right: 30px;
+}
+.btn2 {
+  position: absolute;
+}
+.button-cls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: #324c52;
+  color: #fff;
+  font-weight: 700;
+  width: 240px;
+  position: absolute;
+  left: 180px;
+  top: 110px;
+}
+.btn2 img {
+  width: 40px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 50px;
+}
+.contact-form-container {
+    width: 600px;
+    border-radius: 33px;
+    background: rgb(255, 255, 255);
+    margin: 10px;
+}
+.form-head {
+  font-size: 14px;
+  font-weight: 500;
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-input {
+    outline: none;
+    border: none;
+    background: #f3f3f3;
+    padding-inline: 20px;
+    border-radius: 17px;
+    height: 55px;
+}
+.send-btn {
+    width: 100%;
+    background: #2e9eb9;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    height: 58px;
+    border-radius: 17px;
+    cursor: pointer;
+    margin-top: 20px;
+}

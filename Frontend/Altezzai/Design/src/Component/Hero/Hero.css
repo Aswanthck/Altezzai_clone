@@ -1,0 +1,103 @@
+/* Responsive adjustments for hero layout */
+@media (max-width: 1200px) {
+  .hero {
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+
+  .hero-content {
+    gap: 20px;
+    width: 400px;
+  }
+
+  .head-info {
+    font-size: 16px;
+    width: 400px;
+    line-height: 22px;
+  }
+
+  .talk-btn {
+    width: 200px;
+    height: 60px;
+    gap: 10px;
+  }
+
+  .hero-img,
+  .hero-img img {
+    width: 500px;
+  }
+}
+
+/* Main hero section */
+.hero {
+  display: flex;
+  width: 100%;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+  margin-top: 30px;
+  position: relative;
+  top: 100px;
+}
+
+/* Text and content block */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+}
+
+.head-title p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Description/info paragraph */
+.head-info {
+  font-size: 20px;
+  font-weight: 400;
+  width: 100%;
+  line-height: 28px;
+  color: #555;
+}
+
+/* Call to action button */
+.talk-btn {
+  width: 230px;
+  height: 65px;
+  border-radius: 14px;
+  background: #191a23;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.4s ease-in;
+}
+
+.talk-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Image block */
+.hero-img {
+  width: 600px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease-in-out;
+}
+
+.hero-img img {
+  max-width: 100%;
+  height: auto;
+}

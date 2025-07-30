@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ishaque",
+      "image": "https://backend.altezzai.com/public/team_photos/1743172885_WhatsApp%20Image%20ceo3.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Aswin K",
+      "image": "https://backend.altezzai.com/public/team_photos/1744190978_koroth2.jpeg"
+    },
+    {
+      "id": "3",
+      "name": "Farhathulla",
+      "image": "https://backend.altezzai.com/public/team_photos/1727327647_farhathulla.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Rafsal",
+      "image": "https://backend.altezzai.com/public/team_photos/1727327669_rafsal.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Sandra",
+      "image": "https://backend.altezzai.com/public/team_photos/1727327682_sandra m.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Vivek raj ",
+      "image": "https://backend.altezzai.com/public/team_photos/1728464719_vivek.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Aswin",
+      "image": "https://backend.altezzai.com/public/team_photos/1739804870_WhatsApp Image 2025-02-17 at 8.29.06 PM.jpeg"
+    },
+    {
+      "id": "8",
+      "name": "Nijus",
+      "image": "https://backend.altezzai.com/public/team_photos/1729074272_IMG_1010.jpeg"
+    }
+  ],
+  "project": [
+    {
+      "id": "1",
+      "name": "Project Alpha",
+      "image": "https://backend.altezzai.com/public/project_photos/project_alpha.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Project Beta",
+      "image": "https://backend.altezzai.com/public/project_photos/project_beta.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Project Gamma",
+      "image": "https://backend.altezzai.com/public/images/1728121126_kur2.jpg"
+    }
+  ]
+}

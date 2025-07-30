@@ -1,0 +1,107 @@
+.service {
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.servicehead h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #1e1e1e;
+}
+
+.servicebody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  height: 300px;
+  border-radius: 82px;
+  padding: 20px;
+  color: white;
+
+  /* 🟦 Shadow and animation */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.service-item.dark {
+  background-color: rgb(25, 26, 35);
+}
+
+.service-item.blue {
+  background-color: rgb(46, 158, 185); /* your existing blue */
+  color: white;
+
+  /* Stronger, more visible shadow */
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.service-title {
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.learn-more-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.learn-more-btn span {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+
+.service-right img {
+  width: 220px;
+  height: auto;
+  object-fit: contain;
+}
+
+.servicebottom {
+  margin-top: 40px;
+}
+
+.view-more-link {
+  font-size: 18px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.view-more-link:hover {
+  text-decoration: underline;
+}

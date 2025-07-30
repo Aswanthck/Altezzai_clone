@@ -1,0 +1,132 @@
+.service {
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.servicehead h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #1e1e1e;
+}
+
+.servicebody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Common styles for all service items */
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  height: 300px;
+  border-radius: 82px;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark background style */
+.service-item.dark {
+  background-color: rgb(25, 26, 35);
+}
+
+/* Blue background style */
+.service-item.blue {
+  background-color: rgb(46, 158, 185);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+/* Light background style */
+.service-item.light {
+  background-color: rgb(243, 243, 243);
+  color: black;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.service-item.light:hover {
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+/* Left side container */
+.service-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1;
+}
+
+/* Title style */
+.service-title {
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  user-select: none;
+}
+
+/* Learn More button */
+.learn-more-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border: none;
+  color: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+}
+
+.learn-more-btn span {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 8px 14px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover span {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Right side image container */
+.service-right img {
+  width: 220px;
+  height: auto;
+  object-fit: contain;
+  user-select: none;
+}
+
+/* Bottom view more link */
+.servicebottom {
+  margin-top: 40px;
+}
+
+.view-more-link {
+  font-size: 18px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+  user-select: none;
+}
+
+.view-more-link:hover {
+  text-decoration: underline;
+}
